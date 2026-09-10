@@ -1,0 +1,33 @@
+/* App-wide custom utility styles */
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Subtle glow utility */
+.glow-blue {
+  box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.25);
+}
+
+.glow-red {
+  box-shadow: 0 0 25px -5px rgba(239, 68, 68, 0.25);
+}
+
+.glow-green {
+  box-shadow: 0 0 25px -5px rgba(34, 197, 94, 0.25);
+}

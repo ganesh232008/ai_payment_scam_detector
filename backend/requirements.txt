@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+lightgbm
+scikit-learn
+joblib
+firebase-admin
